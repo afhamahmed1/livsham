@@ -9,7 +9,7 @@
     
 
     <!-- ----------------green----------- -->
-    {{ dd($products[0]) }}
+    {{-- {{ dd($products[0]) }} --}}
 
     <div class="green">
         <div class="container">
