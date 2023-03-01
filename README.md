@@ -7,15 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Admin Credentials:</br>
-URLs:public/admin or public or public/login</br>
-UserName: sabbir.techvill@gmail.com</br>
-Password: 12345678</br>
-</br>
-Customer Credentials:</br>
-URL:public/customer</br>
-UserName: sabbir@gmail.com</br>
-Password: 123456</br>
 </br>
 Customer Registration</br>
 URL:public/customer/register</br>
