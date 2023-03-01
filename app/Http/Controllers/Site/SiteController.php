@@ -50,8 +50,8 @@ class SiteController extends Controller
         $data['recentView'] = Product::recentView();
         $data['homeService'] = $homeService = new \Modules\CMS\Service\HomepageService;
         $data['page'] = $homeService->home();
-
-        return view('site.home.index', $data);
+        $products = Product::get();
+        return view('site.home.index', $products);
     }
 
     /**

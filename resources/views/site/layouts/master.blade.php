@@ -10,6 +10,8 @@
 
     <!-- ----------------green----------- -->
 
+    {{ dd($data) }}
+
     <div class="green">
         <div class="container">
             <div class="row">
