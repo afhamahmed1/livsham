@@ -1,22 +1,4 @@
-var i=1;
 
-// $(function(){
-//     $('.plus').click(function(){
-//         i=parseInt ($('.st').val());
-//         i=i+1;
-//         $('.st').val(i);
-//     })
-
-//     $('.minus').click(function(){
-//         i=parseInt ($('.st').val());
-//         i=i-1;
-
-//         if(i==-1){
-//             i=0;
-//         }
-//         $('.st').val(i);
-//     })
-// })
 
 const cardCounter = document.getElementsByClassName('card-counter')
 // console.log(cardCounter)
@@ -26,9 +8,33 @@ for (let i = 0; i < cardCounter.length; i++) {
     const minus = element.getElementsByClassName('minus')[0]
     const plus = element.getElementsByClassName('plus')[0]
     const st = element.getElementsByClassName('st')[0]
+    const firstbtn = element.getElementsByClassName('first-btn')[0]
     minus.style.display = 'none' 
     st.style.display = 'none'
+    // firstbtn.style.display = 'none'
+    plus.style.display = 'none'
     element.style.backgroundColor = 'white' 
+
+    if(firstbtn){
+        firstbtn.addEventListener('click', ()=>{
+            
+            st.value = parseInt(st.value) + 1
+            if(minus.style.display == 'none'){
+                minus.style.display = 'block'
+                firstbtn.style.display = 'none'
+                element.style.backgroundColor = 'rgb(232, 232, 232)'
+                plus.style.display = 'block'
+
+            }
+            if(st.style.display == 'none'){
+                st.style.display = 'block'
+            }   
+        })
+
+        
+    }   
+
+
     if(minus){
         minus.addEventListener('click', ()=>{
             
@@ -37,6 +43,8 @@ for (let i = 0; i < cardCounter.length; i++) {
                 minus.style.display = 'none' 
                 st.style.display = 'none' 
                 element.style.backgroundColor = 'white'
+                firstbtn.style.display = 'block'
+                plus.style.display = 'none'
             }else{st.value = st.value - 1}
         })
 
@@ -55,23 +63,9 @@ for (let i = 0; i < cardCounter.length; i++) {
         })
     }
 
-    // console.log(element.getElementsByClassName('plus'))
-    // console.log(element.getElementsByClassName('st'))
     
 }
 
-
-// var data=0;
-// document.getElementById("root").innerText=data;
-// function decrement(){
-//     data=data-1;
-//     document.getElementById("root").innerText=data;
-// }
-
-// function increment(){
-//     data=  data+1;
-//     document.getElementById("root").innerText=data;
-// }
 
 
 // ------------preview-----------
@@ -113,17 +107,7 @@ function showMenu(){
     open.style.left = "-700px";
 }
 
-
-
-
-
-
-
-
-
-
-
-
+// ---------------navbar--------------
 
 
 const chc = document.querySelector('#shopping-cart-checkbox');
@@ -174,3 +158,22 @@ function Increment(element){
         cartfun();
     } 
 };
+
+// ---------------load more--------------
+
+$(document).ready(function(){
+    $(".cards") .slice(0, 6).fadeIn();
+    $(".load-more").click(function(){
+        $(".cards").slice(0, 16).fadeIn();
+        $(this).fadeOut();
+    });
+});
+
+// $("cards") .slice(0, 6).show();
+// $(".load-more").on("click", function(){
+//     $(".cards:hidden").slice(0, 16).fadeIn();
+
+//     if($("cards:hidden").length ==0){
+//         $(".load-more").fadeOut();
+//     }
+// });

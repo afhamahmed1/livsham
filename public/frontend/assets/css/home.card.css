@@ -278,13 +278,26 @@
 
 .owl-carousel .owl-nav button.owl-prev span,
 .owl-carousel .owl-nav button.owl-next span {
-    color: rgb(0, 254, 148);
-    background-color: rgba(0, 77, 18, 0.458);
-    font-size: 40px;
-    /* padding: 5px 20px; */
-    width: 71px;
-    height: 70px;
-    display: inline-block;
+    color: rgb(0, 146, 41);
+    background-color: rgba(123, 123, 123, 0.458);
+    font-size: 18px;
+    padding: 5px 15px;
+    transition: 0.5s;
+}
+
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span:hover{
+    color: rgb(0, 206, 58);
+    background-color: rgba(77, 77, 77, 0.458);
+}
+
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  top: -45px;
+  right: 0px;
 }
 
 
@@ -299,6 +312,10 @@
 .card-slider .slider-btn {
     display: flex;
     align-items: center;
+}
+
+.card-slider .slider-btn h3{
+    margin-right: 55px;
 }
 
 .card-slider .slider-btn .custom-btn {
@@ -327,6 +344,10 @@
 
 .livshem-cards {
     padding: 0 0;
+}
+
+.cards{
+    display: none;
 }
 
 .card {
@@ -462,20 +483,35 @@ input[type="number"] {
     margin-right: 25px;
 }
 
-.load-more{
+.more{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 50px 0;
 }
 
-.load-more a{
+.more .load-more{
     background-color: #007033;
     padding: 10px 30px;
     color: white;
     text-decoration: none;
     font-size: 18px;
     border-radius: 50px; 
+}
+
+
+.first-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.first-btn p{
+    padding: 10px 15px;
+    background-color: #007033;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0;
 }
 
 
@@ -667,6 +703,15 @@ input[type="number"] {
     background-color: rgb(31, 47, 85);
 }
 
+/* ----------------cart-------------------- */
+
+.cart{
+    width: 50%;
+    height: 100vh;
+    background-color: #cecece;
+}
+
+
 
 
 /* ---------------------------------------fruit-and-vegitable-------------------------------------------- */
@@ -743,7 +788,7 @@ input[type="number"] {
     top: 0;
     /* left: -700px; */
     background-color: rgb(255, 255, 255);
-    border: 1px solid black;
+    border: 1px solid #bfbfbf;
     z-index: 9;
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.51);
 }
@@ -1119,19 +1164,34 @@ input[type="number"] {
         width: 35%;
     }
 
+    /* ----------carousel--------- */
+
+    .carousel {
+        height: 73vh;
+      }
+
+      /* ----------footer--------- */
 
     .footer {
         padding-bottom: 70px;
       }
 }
 
-@media(max-width:850px) {}
+@media(max-width:850px) {
+
+}
 
 @media(max-width:768px) {
     .header .icon a i {
         font-size: 20px;
         padding: 5px 11px;
     }
+
+        /* ----------carousel--------- */
+
+        .carousel {
+            height: 60vh;
+          }
 }
 
 @media(max-width:450px) {
@@ -1142,4 +1202,10 @@ input[type="number"] {
     .d-nav-icons span {
         padding: 15px 12px;
       }
+
+              /* ----------carousel--------- */
+
+              .carousel {
+                height: 42vh;
+              }
 }
