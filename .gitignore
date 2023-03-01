@@ -22,4 +22,5 @@ robots.txt
 terminat
 .phpunit.result.cache
 .rnd
+.env
 composer.lock
