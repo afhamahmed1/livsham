@@ -1,6 +1,6 @@
 @extends('site.layouts.app')
 
-@section('page_title', $page->name)
+{{-- @section('page_title', $page->name)
 
 @section('seo')
     <meta name="robots" content="index, follow">
@@ -44,4 +44,4 @@
     <script src="{{ asset('public/dist/js/custom/site/common.min.js') }}"></script>
     <script src="{{ asset('public/dist/js/custom/site/wishlist.min.js') }}"></script>
     <script src="{{ asset('public/dist/js/custom/site/compare.min.js') }}"></script>
-@endsection
+@endsection --}}

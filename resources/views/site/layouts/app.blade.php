@@ -4,21 +4,21 @@
 @extends('site.layouts.master')
 
 {{-- All the contents will be placed here --}}
-@section('parent-content')
+{{-- @section('parent-content')
     @yield('content')
     @if (isActive('Ticket') && preference('chat'))
         @include('ticket::message')
     @endif
-@endsection
+@endsection --}}
 
 {{-- All the styles will be injected here --}}
-@section('parent-css')
+{{-- @section('parent-css')
     @yield('css')
     @stack('styles')
-@endsection
+@endsection --}}
 
 {{-- All the scripts will be injected here --}}
-@section('parent-js')
+{{-- @section('parent-js')
     @yield('js')
     @stack('scripts')
-@endsection
+@endsection --}}
