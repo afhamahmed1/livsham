@@ -52,7 +52,6 @@ class SiteController extends Controller
         $data['page'] = $homeService->home();
         $products = Product::get();
         return view('site.home.index', [
-            'data' =>$data,
             'products' => $products
         ]);
     }
