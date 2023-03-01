@@ -99,15 +99,7 @@
 
                         <div class="custom-btn">
 
-                            <div class="owl-nav">
-                                <button type="button" role="presentation" class="owl-prev"><span
-                                        aria-label="Previous">‹</span></button>
-                                <button type="button" role="presentation" class="owl-next"><span
-                                        aria-label="Next">›</span></button>
-                            </div>
-
-                            <!-- <i class="bi bi-arrow-left-circle-fill"></i>
-                            <i class="bi bi-arrow-right-circle-fill"></i> -->
+                            
                         </div>
                     </div>
                 </div>
@@ -115,6 +107,8 @@
 
 
             <div class="card-slides owl-carousel owl-theme">
+
+
                 <div class="item home-cards">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="card">
@@ -147,6 +141,10 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -184,6 +182,10 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -223,6 +225,10 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -261,6 +267,10 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -298,6 +308,10 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -336,6 +350,10 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -373,6 +391,10 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -412,6 +434,10 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -427,7 +453,7 @@
         <div class="home-cards">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -454,13 +480,17 @@
                                 <div class="card-counter d-flex">
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
-                                    <a><i class="bi bi-plus-circle-fill plus"></i></a>
+                                    <a><i class="bi bi-plus-circle-fill plus"></i></a>  
+                                    
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -491,12 +521,16 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -526,12 +560,16 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -561,12 +599,16 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -598,12 +640,16 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -633,15 +679,16 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -672,12 +719,16 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -707,12 +758,16 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -744,12 +799,16 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -780,12 +839,16 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -815,12 +878,16 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
                         <div class="card">
 
                             <div class="t-icon">
@@ -851,10 +918,175 @@
                                     <a><i class="bi bi-dash-circle-fill minus"></i></a>
                                     <input type="number" class="st" value="0" size="2">
                                     <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
+                        <div class="card">
+
+                            <div class="t-icon">
+                                <div class="discount">
+                                    <i class="fa fa-certificate"></i>
+                                    <h5>20%</h5>
+                                </div>
+
+                                <div class="favourite">
+                                    <i class="bi bi-heart"></i>
+                                </div>
+                            </div>
+
+                            <div class="card-image" data-name="p-12">
+                                <img src="images/12.webp" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Card title</h5>
+                                <h4 class="tag mx-auto">750I </h4>
+
+                                <div class="price">
+                                    <h4>118:-50/kg <br>Price Per Item:15:10/lit</h4>
+                                    <h4>72</h4>
+                                </div>
+
+                                <div class="card-counter d-flex">
+                                    <a><i class="bi bi-dash-circle-fill minus"></i></a>
+                                    <input type="number" class="st" value="0" size="2">
+                                    <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
+                        <div class="card">
+
+                            <div class="t-icon">
+                                <div class="discount">
+                                    <i class="fa fa-certificate"></i>
+                                    <h5>20%</h5>
+                                </div>
+
+                                <div class="favourite">
+                                    <i class="bi bi-heart"></i>
+                                </div>
+                            </div>
+
+                            <div class="card-image" data-name="p-12">
+                                <img src="images/12.webp" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Card title</h5>
+                                <h4 class="tag mx-auto">750I </h4>
+
+                                <div class="price">
+                                    <h4>118:-50/kg <br>Price Per Item:15:10/lit</h4>
+                                    <h4>72</h4>
+                                </div>
+
+                                <div class="card-counter d-flex">
+                                    <a><i class="bi bi-dash-circle-fill minus"></i></a>
+                                    <input type="number" class="st" value="0" size="2">
+                                    <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
+                        <div class="card">
+
+                            <div class="t-icon">
+                                <div class="discount">
+                                    <i class="fa fa-certificate"></i>
+                                    <h5>20%</h5>
+                                </div>
+
+                                <div class="favourite">
+                                    <i class="bi bi-heart"></i>
+                                </div>
+                            </div>
+
+                            <div class="card-image" data-name="p-12">
+                                <img src="images/12.webp" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Card title</h5>
+                                <h4 class="tag mx-auto">750I </h4>
+
+                                <div class="price">
+                                    <h4>118:-50/kg <br>Price Per Item:15:10/lit</h4>
+                                    <h4>72</h4>
+                                </div>
+
+                                <div class="card-counter d-flex">
+                                    <a><i class="bi bi-dash-circle-fill minus"></i></a>
+                                    <input type="number" class="st" value="0" size="2">
+                                    <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cards col-lg-2 col-md-4 col-sm-6">
+                        <div class="card">
+
+                            <div class="t-icon">
+                                <div class="discount">
+                                    <i class="fa fa-certificate"></i>
+                                    <h5>20%</h5>
+                                </div>
+
+                                <div class="favourite">
+                                    <i class="bi bi-heart"></i>
+                                </div>
+                            </div>
+
+                            <div class="card-image" data-name="p-12">
+                                <img src="images/12.webp" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Card title</h5>
+                                <h4 class="tag mx-auto">750I </h4>
+
+                                <div class="price">
+                                    <h4>118:-50/kg <br>Price Per Item:15:10/lit</h4>
+                                    <h4>72</h4>
+                                </div>
+
+                                <div class="card-counter d-flex">
+                                    <a><i class="bi bi-dash-circle-fill minus"></i></a>
+                                    <input type="number" class="st" value="0" size="2">
+                                    <a><i class="bi bi-plus-circle-fill plus"></i></a>
+
+                                    <div class="first-btn">
+                                        <p>KOP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
